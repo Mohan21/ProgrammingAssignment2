@@ -1,3 +1,22 @@
+## The following functions can calculate and cache the 
+## inverse of a matrix, which can save considerable time 
+## when meet the same matrix again. 
+##
+## 1. Run i <- makeCacheMatrix(x) where x is the invertible 
+##    matrix 
+##
+## 2. cashesolve(i), i is the matrix that results from 
+##    first step.
+##
+## The output of functions:
+## 1. If the matrix is already cached, its inverse will 
+##      be read from the memory and printed directly 
+##      with the message "getting cached data"; 
+##
+## 2. Otherwise, the inverse will be calculated, cached 
+##      and then printed.
+##
+##
 ## The first function, makeCacheMatrix creates a matrix, which is really 
 ## a list containing a function to
 ##
